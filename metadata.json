@@ -1,0 +1,6 @@
+{
+  "name": "NEC Pulse - AI Official Letter Writer & Student Suite",
+  "description": "Official letter writing assistant for complaints, teacher feedback, and leave applications alongside a complete student dashboard for Narasaraopeta Engineering College.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEC Pulse - AI Official Letter Writer & Student Suite</title>
+    <meta name="description" content="Official letter writing assistant for complaints, teacher feedback, and leave applications alongside a complete student dashboard for Narasaraopeta Engineering College." />
+    <meta property="og:title" content="NEC Pulse - AI Official Letter Writer & Student Suite" />
+    <meta property="og:description" content="Official letter writing assistant for complaints, teacher feedback, and leave applications alongside a complete student dashboard for Narasaraopeta Engineering College." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #printable-letter, #printable-letter * {
+          visibility: visible;
+        }
+        #printable-letter {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          margin: 0;
+          padding: 24mm 20mm;
+          box-shadow: none !important;
+          background: white !important;
+          color: black !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased min-h-screen selection:bg-teal-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
